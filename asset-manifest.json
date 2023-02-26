@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/review-weather-app/static/css/main.9bffa6ba.css",
+    "main.js": "/review-weather-app/static/js/main.e410a4ad.js",
+    "static/js/787.82c31fc9.chunk.js": "/review-weather-app/static/js/787.82c31fc9.chunk.js",
+    "static/media/day-snow.svg": "/review-weather-app/static/media/day-snow.a17d49d73059cdb1bec0291e191db6f9.svg",
+    "static/media/night-snow.svg": "/review-weather-app/static/media/night-snow.c1ec3b04ec07d0c44cecc4729c5f5bc6.svg",
+    "static/media/day-rain.svg": "/review-weather-app/static/media/day-rain.b2ba259d7881c9cb62c8ca28f97966c3.svg",
+    "static/media/day-cloudy-fog.svg": "/review-weather-app/static/media/day-cloudy-fog.666192e3d76bc591c335f6e6bc2c001f.svg",
+    "static/media/day-thunderstorm.svg": "/review-weather-app/static/media/day-thunderstorm.9268f92252e3bfc0038954447e517550.svg",
+    "static/media/day-cloudy.svg": "/review-weather-app/static/media/day-cloudy.2e92f9eb6fae744a5aba7dad1755c58b.svg",
+    "static/media/night-cloudy-fog.svg": "/review-weather-app/static/media/night-cloudy-fog.9afc1c2cec76be398d2275d8a5a874fc.svg",
+    "static/media/night-rain.svg": "/review-weather-app/static/media/night-rain.3d4a68a390e984ff9f213a6998e28cd1.svg",
+    "static/media/night-thunderstorm.svg": "/review-weather-app/static/media/night-thunderstorm.2bd32031dd460c1a4e3280645202e561.svg",
+    "static/media/day-fog.svg": "/review-weather-app/static/media/day-fog.8e2b7f59f939fea383b57e2e8f57acd8.svg",
+    "static/media/night-cloudy.svg": "/review-weather-app/static/media/night-cloudy.dde309547bea61e5c31791e5b6433726.svg",
+    "static/media/night-fog.svg": "/review-weather-app/static/media/night-fog.1f12d184e62b4649f301d9e6fbb768c7.svg",
+    "index.html": "/review-weather-app/index.html",
+    "static/media/cog.svg": "/review-weather-app/static/media/cog.f090cb661d41a30ac14afb82c791a586.svg",
+    "static/media/day-clear.svg": "/review-weather-app/static/media/day-clear.9abac4b0500e309b346737f755e40939.svg",
+    "static/media/airFlow.svg": "/review-weather-app/static/media/airFlow.55faa766466e00b98830da229b3e8e36.svg",
+    "static/media/redo.svg": "/review-weather-app/static/media/redo.f82b4b11f8e961d5c683852d5f7ae1f7.svg",
+    "static/media/night-clear.svg": "/review-weather-app/static/media/night-clear.d737d7365e6809abf5a69f8bb2dde7a8.svg",
+    "static/media/rainPossible.svg": "/review-weather-app/static/media/rainPossible.1367158233d62f9620b0856e92bcc9a1.svg",
+    "main.9bffa6ba.css.map": "/review-weather-app/static/css/main.9bffa6ba.css.map",
+    "main.e410a4ad.js.map": "/review-weather-app/static/js/main.e410a4ad.js.map",
+    "787.82c31fc9.chunk.js.map": "/review-weather-app/static/js/787.82c31fc9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bffa6ba.css",
+    "static/js/main.e410a4ad.js"
+  ]
+}
