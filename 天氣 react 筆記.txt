@@ -1,0 +1,36 @@
+API 授權碼: CWB-4254CE67-A508-488D-B1E9-4DAAB99A21B6
+
+SVG 有可能 class 名稱相同所以改道顏色
+
+**重要補充：千萬不能在條件式（conditions）、迴圈（loops）或嵌套函式（nested functions）中呼叫 Hook 方法**
+在 React Hooks 中會去記錄這些 Hooks 在函式中被呼叫的順序，以確保資料能夠被相互對應，但若當我們將 Hooks 放到條件式
+或迴圈時，就會破壞了這些 Hooks 被呼叫到的順序，如此會造成錯誤。
+
+
+Reconciliation : React 的渲染機制
+在 React 當中，透過 Reconciliation 渲染機制可以快速找出 State 改變的地方 :
+  1.透過 State 的改變，render 出 Virtual DOM
+  2.透過比對 Virtual DOM 的不同，再更新真的 DOM 到畫面
+
+React 渲染頁面的兩個階段
+  1.調度階段 (reconciliation) : 在這個階段 React 會更新數據生成新的 Virtual DOM，然後透過 Diff 算法，快速
+  找出需要更新的元素，放到更新對列中去。(負責找出變化的組件)
+  2.渲染階段 (commit) : 這個階段 React 會遍歷 effect list 執行所有的副作用，期間會執行更新相關的生命週期、
+  掛載 DOM 等等。(負責將變化的組件渲染到頁面上)
+ 
+"https://summer10920.github.io/2021/11-16/js-react-hook/"
+D17 useEffect 的使用，(useEffect 可以完成一個 return 自訂函式來達成 WillUnmount 的生命週期事件 相當於 ngDestroy)，
+只要 useEffect 有重新執行一次就一定會觸發到 return 的生命週期事件 (小優化可以用來清除前一次 effect 的東西)
+
+
+D20 useCallback 的使用，目前看來類似於綁定一個記憶體的感覺
+
+"https://github.com/puxiao/react-hook-tutorial/blob/master/11%20useMemo%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95.md"
+D21 useMemo 的使用，相似於 useCallback 通常用於複雜運算結果，如果 dependencies 沒有改變就不會再重新運算一次
+還有一點 useCallback 有點像回傳一個 bind 好的函數，而 useMemo 像是立即執行函數，回傳執行完後的結果(所以才不會再重新運算一次，除非 dependencies 改變)
+1.useCallback(fn, deps) 等同於 useMemo(() => fn, deps)  ** useMemo 有點像直接執行了，所以改成 () => fn 直接 return fn 就跟 useCallback 一樣了
+不要再 useMemo 中添加修改數據的程式碼，專注於計算結果就好
+2.useCallback 主要用來處理各種事物的程式碼，例如修改變數或加載數據等。
+Tips 如果要取 arr[0] 通常會用解構賦值 const [firstElement] = arr 去取比較好看
+
+D22 可以使用 reduce 來更換物件 key 的名字。
