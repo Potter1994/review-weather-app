@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/review-weather-app/static/css/main.9bffa6ba.css",
-    "main.js": "/review-weather-app/static/js/main.e410a4ad.js",
+    "main.js": "/review-weather-app/static/js/main.5912353a.js",
     "static/js/787.82c31fc9.chunk.js": "/review-weather-app/static/js/787.82c31fc9.chunk.js",
     "static/media/day-snow.svg": "/review-weather-app/static/media/day-snow.a17d49d73059cdb1bec0291e191db6f9.svg",
     "static/media/night-snow.svg": "/review-weather-app/static/media/night-snow.c1ec3b04ec07d0c44cecc4729c5f5bc6.svg",
@@ -23,11 +23,11 @@
     "static/media/night-clear.svg": "/review-weather-app/static/media/night-clear.d737d7365e6809abf5a69f8bb2dde7a8.svg",
     "static/media/rainPossible.svg": "/review-weather-app/static/media/rainPossible.1367158233d62f9620b0856e92bcc9a1.svg",
     "main.9bffa6ba.css.map": "/review-weather-app/static/css/main.9bffa6ba.css.map",
-    "main.e410a4ad.js.map": "/review-weather-app/static/js/main.e410a4ad.js.map",
+    "main.5912353a.js.map": "/review-weather-app/static/js/main.5912353a.js.map",
     "787.82c31fc9.chunk.js.map": "/review-weather-app/static/js/787.82c31fc9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bffa6ba.css",
-    "static/js/main.e410a4ad.js"
+    "static/js/main.5912353a.js"
   ]
 }
