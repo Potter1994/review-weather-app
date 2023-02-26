@@ -96,7 +96,6 @@ function WeatherSetting({ setCurrentPage, setCurrentCity, cityName }) {
 
   const handleSave = () => {
     const locationName = inputLocationRef.current.value;
-    console.log(locationName);
 
     if (!locations.includes(locationName)) {
       alert(`儲存失敗 : 您輸入的${locationName} 並非有效的地區`);
@@ -112,7 +111,6 @@ function WeatherSetting({ setCurrentPage, setCurrentCity, cityName }) {
 
   return (
     <WeatherSettingWrapper>
-      {console.log("render")}
       <Title>設定</Title>
       <StyledLabel htmlFor='locaion'>地區</StyledLabel>
       <StyledInputList

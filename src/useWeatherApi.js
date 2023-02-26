@@ -79,12 +79,9 @@ const useWeatherApi = (currentLocation) => {
   }, [locationName, cityName]);
 
   useEffect(() => {
-    console.log("execute function in effect");
     fetchData();
 
-    return () => {
-      console.log("Effect out");
-    };
+    return () => {};
   }, [fetchData]);
 
   return [weatherElement, fetchData];

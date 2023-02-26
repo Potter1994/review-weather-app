@@ -56,7 +56,6 @@ const theme = {
 };
 
 function WeatherApp() {
-  console.log("---invoke function component");
   const storageCity = localStorage.getItem("cityName");
   const [currentCity, setCurrentCity] = useState(storageCity || "高雄市");
   const currentLocation = findLocation(currentCity) || {};
@@ -77,7 +76,6 @@ function WeatherApp() {
   return (
     <ThemeProvider theme={theme[currentTheme]}>
       <Container>
-        {console.log("render")}
         {currentPage === "WeatherCard" && (
           <WeatherCard
             cityName={currentLocation.cityName}
